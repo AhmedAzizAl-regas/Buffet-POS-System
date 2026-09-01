@@ -1,0 +1,61 @@
+========================================================================
+                      سياسة الخصوصية - تطبيق بوفيه POS
+                   PRIVACY POLICY - BUFFET POS SYSTEM
+========================================================================
+
+------------------------------------------------------------------------
+                             اللغة العربية
+------------------------------------------------------------------------
+
+تاريخ آخر تحديث: 19 مايو 2026
+
+أهلاً بكم في تطبيق "بوفيه POS" (Buffet POS System). نحن نلتزم التزاماً تاماً بحماية خصوصية بياناتك وبيانات عملائك. بما أن تطبيقنا مصمم ليعمل بآلية "أوفلاين أولاً" (Offline-First)، فإن بيانات المبيعات والمنتجات الخاصة بك تظل بالكامل تحت سيطرتك المباشرة وعلى جهازك المحلي.
+
+فيما يلي توضيح تفصيلي لسياسة الخصوصية وأسباب طلب بعض الصلاحيات الأساسية على جهازك:
+
+1. صلاحية الوصول إلى وحدة التخزين والملفات (Storage & Files Access Permission):
+يطلب التطبيق الوصول إلى وحدة التخزين والملفات الخاصة بجهازك لأداء الوظائف الحيوية التالية التي لا يمكن إتمامها بدون هذه الصلاحية:
+   أ. تصدير التقارير (Exporting Reports): 
+      لتوليد وحفظ تقارير المبيعات الفردية والتقارير الشهرية وسجلات الطلبات بصيغة PDF عالية الجودة على جهازك لطباعتها أو مشاركتها.
+   ب. إنشاء نسخ احتياطية لقاعدة البيانات (Database Backups): 
+      لحفظ واسترجاع ملفات قاعدة البيانات المحلية (SQLite/Floor) الخاصة بالمنتجات والمبيعات وتصنيفات الأطعمة. هذا يضمن حماية بياناتك من الضياع في حال تلف الجهاز أو تغييره.
+   ج. تصدير ومشاركة الملفات (Files Export & Sharing): 
+      لحفظ ومشاركة الفواتير والإيصالات الرقمية مع العملاء عبر تطبيقات التواصل المختلفة.
+
+2. آلية تخزين البيانات وحمايتها:
+- يتم تخزين كافة البيانات المتعلقة بالمنتجات، المبيعات، سجل الطلبات، وتفضيلات الإعدادات محلياً بنسبة 100% داخل قاعدة بيانات مشفرة ومؤمنة على جهازك.
+- لا يتم إرسال أي من بياناتك البرمجية أو مبيعاتك أو معلومات عملائك إلى أي خادم خارجي (Server).
+
+3. صلاحية المصادقة الحيوية (Biometric Authentication):
+يستخدم التطبيق مستشعرات بصمة الإصبع أو الوجه الخاصة بجهازك (Local Auth) لغرض تأمين الوصول إلى لوحة تحكم الكاشير والإعدادات الحساسة لمنع دخول أي موظف غير مصرح له. عملية التحقق تتم بالكامل داخل نظام تشغيل الجهاز ولا يتم حفظ أو معالجة بصماتك داخل التطبيق إطلاقاً.
+
+------------------------------------------------------------------------
+                                ENGLISH
+------------------------------------------------------------------------
+
+Last Updated: May 19, 2026
+
+Welcome to the "Buffet POS System". We are fully committed to protecting your privacy and your customers' data. Since our application is designed to be "Offline-First", all your sales and product data remains entirely under your direct control and stored locally on your device.
+
+The following is a detailed explanation of our privacy policy and why certain essential device permissions are required:
+
+1. Storage & Files Access Permission:
+The application requests access to your device's storage and file system to perform the following critical operations:
+   A. Exporting Reports:
+      To generate and save individual sales invoices, monthly reports, and order history logs in high-quality PDF format locally on your device for printing or sharing.
+   B. Creating & Restoring Database Backups:
+      To backup and restore your local SQLite/Floor database files containing products, categories, and sales data. This ensures your business records are protected from data loss in case of device damage or replacement.
+   C. File Export & Sharing:
+      To save and share digital invoices, receipts, and reports with customers or management via external communication apps.
+
+2. Data Storage & Security:
+- 100% of the data relating to products, sales, order history, and settings is stored locally within a secured local database on your device.
+- No sales data, product information, or customer details are ever transmitted to external servers.
+
+3. Biometric Authentication Permission:
+The app utilizes your device's fingerprint or facial recognition sensors (Local Auth) to secure access to the Cashier dashboard and sensitive system settings. The verification is handled entirely by the device's operating system, and no biometric data is ever stored or processed by the application itself.
+
+========================================================================
+                  Buffet POS System - Offline & Secure
+                  أحمد عزيز - Ahmed Aziz © 2026
+========================================================================

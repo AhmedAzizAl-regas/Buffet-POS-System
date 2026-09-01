@@ -1,0 +1,93 @@
+name: buffet_app
+description: "Small pos app"
+publish_to: "none"
+version: 1.0.2+3
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  # State Management
+  flutter_riverpod: ^3.1.0
+  riverpod_annotation: ^4.0.0
+
+  # Navigation
+  go_router: ^17.1.0
+
+  # Database
+  sqflite: ^2.3.0
+
+  path: ^1.9.0
+  dartz: ^0.10.1
+  collection: ^1.19.1
+  fluttertoast: ^9.0.0
+  intl: ^0.20.2
+  share_plus: ^12.0.1
+  file_picker: ^10.3.10
+  path_provider: ^2.1.5
+  csv: ^6.0.0
+  package_info_plus: ^9.0.0
+  permission_handler: ^12.0.1
+  restart_app: ^1.7.3
+  local_auth: ^3.0.1
+  local_auth_android: ^2.0.7
+  local_auth_ios: ^1.1.7
+  flutter_svg: ^2.2.4
+  logger: ^2.7.0
+  device_info_plus: ^12.4.0
+  flutter_launcher_icons: ^0.14.4
+  pdf: ^3.12.0
+  printing: ^5.14.3
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.4.7
+
+  flutter_lints: ^6.0.0
+
+  build_runner: ^2.4.8
+  riverpod_generator: ^4.0.0+1
+  intl_utils: ^2.8.7
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  fonts:
+    - family: Tajawal
+      fonts:
+        - asset: assets/fonts/Tajawal-Regular.ttf
+        - asset: assets/fonts/Tajawal-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Tajawal-Bold.ttf
+          weight: 700
+
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+  assets:
+    - assets/icons/
+    # - assets/images/
+
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
+  main_locale: en
+dependency_overrides:
+  intl: ^0.20.2
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo_with_white_bg.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/logo.png"

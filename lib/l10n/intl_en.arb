@@ -1,0 +1,520 @@
+{
+  "@@locale": "en",
+  "sar": "SAR",
+  "selectedCount": "{count} Selected",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "confirm": "Confirm",
+  "cancel": "Cancel",
+  "save": "SAVE",
+  "editingOrder": "Editing Order {id}",
+  "@editingOrder": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "editProduct": "Edit Product",
+  "noProducts": "There are no products",
+  "importError": "Import Error: {error}",
+  "@importError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "buffetName": "Buffet Name",
+  "businessInfo": "Business Info",
+  "localization": "Localization",
+  "appLanguage": "App Language",
+  "databaseReports": "Database & Reports",
+  "exportOrders": "Export Orders",
+  "saveAllHistoryToExcelXlsx": "Save all history to Excel (.xlsx)",
+  "factoryReset": "Factory Reset",
+  "deleteAllProductsAndHistory": "Delete all products and history",
+  "appVersionVersion": "App Version: v{version}",
+  "@appVersionVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionUnknown": "Version Unknown",
+  "dangerousAction": "Dangerous Action!",
+  "thisWillWipeYourEntireDatabaseAreYouAbsolutelySure": "This will wipe your entire database. Are you absolutely sure?",
+  "resetAll": "RESET ALL",
+  "editBuffetName": "Edit Buffet Name",
+  "enterBuffetName": "Enter buffet name",
+  "settings": "Settings",
+  "catalog": "Catalog",
+  "exportType": "Export {type}",
+  "@exportType": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "importType": "Import {type}",
+  "@importType": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "products": "Products",
+  "addons": "Add-ons",
+  "newProduct": "New Product",
+  "newAddon": "New Add-on",
+  "processedItems": "{count, plural, =0{No items processed} =1{Processed 1 item} other{Processed {count} items}}",
+  "@processedItems": {
+    "description": "Message shown after importing items",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteItems": "Delete Items?",
+  "deleteWarning": "Delete {count} items? This cannot be undone.",
+  "@deleteWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addNewProduct": "Add New Product",
+  "required": "Required",
+  "invalid": "Invalid",
+  "basePrice": "Base Price",
+  "saveProduct": "Save Product",
+  "editAddon": "Edit {name}",
+  "@editAddon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "price": "Price",
+  "saveAddon": "Save Add-on",
+  "exportOptions": "Export Options",
+  "saveToDefault": "Save to Default",
+  "savedTo": "Saved to {path}",
+  "@savedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "selectLocation": "Select Location",
+  "chooseFolder": "Choose a custom folder",
+  "savedSuccessfully": "Saved successfully",
+  "shareCsv": "Share CSV",
+  "whatsappEmail": "WhatsApp/Email",
+  "duplicates": "Duplicates:",
+  "skipAll": "Skip All",
+  "replaceAll": "Replace All",
+  "exists": "EXISTS",
+  "newWord": "NEW",
+  "skip": "Skip",
+  "replace": "Replace",
+  "duplicate": "Duplicate",
+  "noAddons": "There are no add-ons",
+  "addAddonsNow": "Add new add-ons now!",
+  "errorOccurred": "Error: {error}",
+  "@errorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "product": "Product",
+  "addon": "Add-on",
+  "addProductsNow": "Add new products now!",
+  "clickToOpen": "Normal click: Open {name}",
+  "@clickToOpen": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importPreview": "Import Preview",
+  "productName": "Product Name",
+  "addonName": "Add-on Name",
+  "orderHistory": "Order History",
+  "noOrdersFound": "No orders found.",
+  "pending": "Pending",
+  "served": "Served",
+  "status": "STATUS",
+  "items": "ITEMS",
+  "orderNotes": "ORDER NOTES",
+  "totalPaid": "TOTAL PAID",
+  "markAsServed": "MARK AS SERVED",
+  "soon": "Soon...",
+  "errorLoadingOrder": "Error loading order",
+  "deleteAll": "Delete All",
+  "deleteConfirmMessage": "This will permanently remove these records from your database.",
+  "orderId": "Order #{id}",
+  "@orderId": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteOrdersCount": "{count, plural, =1{Delete 1 Order?} other{Delete {count} Orders?}}",
+  "@deleteOrdersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deletedOrdersMessage": "{count, plural, =1{Deleted 1 order} other{Deleted {count} orders}}",
+  "@deletedOrdersMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "orderServedSuccess": "Order {orderId} Served",
+  "@orderServedSuccess": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "posTerminal": "POS Terminal",
+  "editCancelled": "Edit Cancelled",
+  "clearOrder": "Clear Order?",
+  "removeAllItemsFromTheCart": "Remove all items from the cart?",
+  "clear": "Clear",
+  "cartIsEmpty": "Cart is empty!",
+  "failedToSaveOrder": "Failed to save order. Please try again.",
+  "cannotPauseWhileEditing": "Cannot pause while editing a saved order",
+  "pauseOrder": "Pause Order",
+  "customerName": "Customer Name",
+  "orderPaused": "Order Paused",
+  "checkoutSummary": "Checkout Summary",
+  "grandTotal": "Grand Total",
+  "total": "Total",
+  "customerInfo": "Customer Info",
+  "enterCustomerName": "Enter customer name...",
+  "addOrderNotes": "Add order notes (optional)...",
+  "completeSale": "COMPLETE SALE",
+  "addNewProductsNow": "Add new products now!",
+  "totalAmount": "Total Amount",
+  "checkout": "CHECKOUT",
+  "reviewOrder": "Review Order",
+  "plain": "Plain",
+  "quantity": "Quantity",
+  "free": "Free",
+  "errorLoadingAddons": "Error loading addons",
+  "addToOrder": "Add to Order",
+  "updateItem": "Update Item",
+  "pausedOrders": "Paused Orders",
+  "noPausedOrders": "No paused orders",
+  "orderDeleted": "Order Deleted",
+  "delete": "DELETE",
+  "resumeOrder": "RESUME ORDER",
+  "orderLoaded": "Order Loaded",
+  "orderUpdatedSuccessfully": "{id} Updated Successfully",
+  "@orderUpdatedSuccessfully": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "orderSaved": "Order {id} Saved!",
+  "@orderSaved": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutError": "Checkout Error: {e}",
+  "@checkoutError": {
+    "placeholders": {
+      "e": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsInBasket": "{count, plural, =0{No items in basket} =1{1 item in basket} other{{count} items in basket}}",
+  "@itemsInBasket": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =1{1 item} other{{count} items}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addProductName": "Add {name}",
+  "@addProductName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editProductName": "Edit {name}",
+  "@editProductName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderIndex": "Order #{index}",
+  "@orderIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "swappedMins": "Swapped",
+  "listView": "List view",
+  "gridView": "Grid view",
+  "hideSearch": "Hide search",
+  "search": "Search",
+  "all": "all",
+  "confirmOrder": "Confirm Order",
+  "dismiss": "DISMISS",
+  "errorOccur": "Error Occurred",
+  "quickNavigation": "Quick Navigation",
+  "numbersFormat": "Numbers Format",
+  "currencySign": "Currency Sign",
+  "dateFormat": "Date Format",
+  "timeFormat": "Time Format",
+  "numHour": "{count, plural, =1{1-Hour} other{{count}-Hour}}",
+  "@numHour": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "backupDatabase": "Backup Database",
+  "exportAllDataToAFile": "Export all data to a file",
+  "restoreDatabase": "Restore Database",
+  "importNewDataFromABackupFile": "Import new data from a backup file",
+  "resetToDefault": "Reset to Default",
+  "restoreAllAppSettingsToFactoryDefaults": "Restore all app settings to factory defaults",
+  "resetSettings": "Reset Settings?",
+  "thisWillRevertYourCurrencyNumbersAndAppNameTo": "This will revert your currency, numbers, and app name to defaults. This action cannot be undone.",
+  "resetNow": "Reset Now",
+  "settingsRestoredToDefaults": "Settings restored to defaults",
+  "databaseExportedSuccessfully": "Database Exported Successfully",
+  "exportCancelled": "Export Cancelled",
+  "permissionDenied": "Permission Denied",
+  "importDatabase": "Import Database?",
+  "thisWillOverwriteAllCurrentBuffetDataTheAppWill": "This will overwrite all current buffet data. The app will restart automatically.",
+  "importRestart": "Import & Restart",
+  "importSuccessfulRestarting": "Import Successful! Restarting...",
+  "importFailed": "Import Failed",
+  "saved": "SAVED",
+  "livePreview": "LIVE PREVIEW",
+  "customT": "Custom {title}...",
+  "@customT": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "applyChanges": "Apply Changes",
+  "systemResetSuccessfulRestarting": "System Reset Successful! Restarting...",
+  "resetFailed": "Reset Failed",
+  "applyLanguage": "Apply Language",
+  "saudiRiyal": "- Yemen Riyal",
+  "usDollar": "$ - US Dollar",
+  "biometricAuthentication": "Biometric Authentication",
+  "verifyIdentity": "Verify identity",
+  "authErrorMessage": "An authentication error occurred. Please try again.",
+  "pleaseSetUpBiometrics": "Please set up FaceID or TouchID in your device settings.",
+  "tooManyAttemptsLockout": "Too many attempts. Biometrics have been temporarily disabled.",
+  "pleaseAuthenticateToConfirm": "Please authenticate to confirm it's you",
+  "biometricsNotAvailable": "Biometrics/PIN are not available on this device.",
+  "noBiometricsRegistered": "No fingerprints or face data registered on this device.",
+  "tooManyAttemptsRetry": "Too many attempts. Please try again in 30 seconds.",
+  "biometricsDisabledUsePasscode": "Biometrics disabled. Please unlock using your phone passcode.",
+  "osNotSupported": "This operating system does not support local authentication.",
+  "identityVerified": "Identity Verified",
+  "saveBuffetBackup": "Save Buffet Backup",
+  "resetError": "Reset Error: {error}",
+  "@resetError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidFileType": "Invalid file type",
+  "searchProducts": "Search products...",
+  "tapAnItemToPinItToTheTop": "Tap an item to pin it to the top",
+  "categories": "Categories",
+  "newCategory": "New Category",
+  "editCategory": "Edit Category",
+  "categoryName": "Category Name",
+  "enterName": "Enter name...",
+  "saveCategory": "Save Category",
+  "deletedSuccessfully": "Deleted Successfully",
+  "uncategorized": "Uncategorized",
+  "egChickenBurger": "e.g. Chicken Burger",
+  "category": "Category",
+  "selectCategory": "Select Category",
+  "addNewCategory": "Add New Category",
+  "egExtraCheese": "e.g. Extra Cheese",
+  "permissionRequired": "Permission Required",
+  "storagePermissionMessage": "Storage access is needed to save backups. Please grant permission to continue.",
+  "grant": "Grant",
+  "basicDetails": "Basic Details",
+  "addNewAction": "ADD NEW ACTION",
+  "noCategory": "No Category",
+  "catExists": "Exists",
+  "newCat": "New Cat",
+  "importAction": "Import Now",
+  "bestBuffet": "Best Buffet",
+  "saveToDefaultBackups": "Save to Default (backups/)",
+  "selectFolder": "Select Folder",
+  "shareFile": "Share File",
+  "close": "close",
+  "savedToBackups": "Saved to {folder}",
+  "@savedToBackups": {
+    "placeholders": {
+      "folder": {
+        "type": "String"
+      }
+    }
+  },
+  "exportFailed": "Export Failed",
+  "success": "success",
+  "exportNow": "Export Now",
+  "invalidPattern": "Invalid Pattern",
+  "welcomeToBuffet": "Welcome to Buffet",
+  "noCategories": "There are no categories",
+  "addNewCategoriesNow": "Add new categories now!",
+  "productCount": "{count, plural, =1{1 Product} other{{count} Products}}",
+  "@productCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quantityLabel": "{count}x {name}",
+  "@quantityLabel": {
+    "placeholders": {
+      "count": {
+        "type": "String"
+      },
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "addonPrefix": "+ {name}",
+  "@addonPrefix": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "welcomeToBuffetPreviewEn": "Welcome to Buffet",
+  "welcomeToBuffetPreviewAr": "مرحباً بك في بوفيه",
+  "egDateFormat": "e.g. yyyy-MM-dd",
+  "onboardingTitle1": "Welcome to BuffetPOS",
+  "onboardingSubtitle1": "Your smart point-of-sale system designed for speed and simplicity. Manage your buffet like a pro.",
+  "onboardingTitle2": "Track Every Order",
+  "onboardingSubtitle2": "From checkout to order history, keep a complete record of all transactions with detailed reports.",
+  "onboardingTitle3": "Ready to Go!",
+  "onboardingSubtitle3": "Set up your catalog, customize your settings, and start taking orders in minutes.",
+  "onboardingNext": "Next",
+  "onboardingGetStarted": "Get Started",
+  "onboardingSkip": "Skip",
+  "systemDefault": "System Default",
+  "themeMode": "Theme Mode",
+  "darkMode": "Dark Mode",
+  "lightMode": "Light Mode",
+  "selectLanguage": "Select Language",
+  "arabic": "العربية (Arabic)",
+  "english": "English",
+  "login": "Log In",
+  "signUp": "Sign Up",
+  "fullName": "Full Name",
+  "phoneNumber": "Phone Number",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm Password",
+  "dontHaveAccount": "Don't have an account? Sign Up",
+  "alreadyHaveAccount": "Already have an account? Log In",
+  "searchCountry": "Search country...",
+  "invalidEmail": "Invalid email format",
+  "passwordsDoNotMatch": "Passwords do not match",
+  "fieldRequired": "This field is required",
+  "emailAlreadyRegistered": "Email is already registered",
+  "emailNotRegistered": "Email is not registered",
+  "incorrectPassword": "Incorrect password",
+  "loginSuccess": "Logged in successfully",
+  "registerSuccess": "Registered successfully",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "invalidPhoneNumber": "Invalid phone number",
+  "selectCountry": "Select Country",
+  "suppliers": "Suppliers",
+  "accounts": "Accounts",
+  "addSupplier": "Add Supplier",
+  "editSupplier": "Edit Supplier",
+  "supplierName": "Supplier Name",
+  "address": "Address",
+  "credit": "Credit",
+  "debit": "Debit",
+  "balance": "Balance",
+  "dailyDebit": "Daily Debit",
+  "dailyCredit": "Daily Credit",
+  "dailySales": "Daily Sales",
+  "netProfit": "Net Profit",
+  "profits": "Profits",
+  "supplier": "Supplier",
+  "selectSupplier": "Select Supplier",
+  "noSupplier": "No Supplier",
+  "addTransaction": "Add Entry",
+  "transactionType": "Entry Type",
+  "amount": "Amount",
+  "description": "Description",
+  "date": "Date",
+  "linkedProducts": "Linked Products",
+  "linkedAddons": "Linked Add-ons",
+  "printReport": "Print Report",
+  "exportAccountsReport": "Export Daily Accounts Report",
+  "ledger": "Ledger / Entries",
+  "noTransactions": "No entries found.",
+  "debitPayment": "Debit (Payment)",
+  "creditPurchase": "Credit (Purchase)"
+}

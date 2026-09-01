@@ -1,0 +1,496 @@
+{
+  "@@locale": "ar",
+  "selectedCount": "{count, plural, =0{لا يوجد تحديد} =1{تم تحديد طلب واحد} =2{تم تحديد طلبين} few{تم تحديد {count} طلبات} many{تم تحديد {count} طلباً} other{تم تحديد {count} طلب}}",
+  "@selectedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "confirm": "تأكيد",
+  "sar": "ر.ي",
+  "editingOrder": "تعديل طلب {id}",
+  "@editingOrder": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "editProduct": "تعديل المنتج",
+  "noProducts": "لا توجد منتجات",
+  "importError": "خطأ في الاستيراد: {error}",
+  "@importError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "buffetName": "اسم الكافتيريا",
+  "businessInfo": "معلومات العمل",
+  "localization": "الإعدادات المحلية",
+  "appLanguage": "لغة التطبيق",
+  "databaseReports": "قاعدة البيانات والتقارير",
+  "exportOrders": "تصدير الطلبات",
+  "saveAllHistoryToExcelXlsx": "حفظ السجل بالكامل إلى ملف (Excel (.xlsx",
+  "factoryReset": "إعادة ضبط المصنع",
+  "deleteAllProductsAndHistory": "حذف جميع المنتجات والسجل",
+  "appVersionVersion": "إصدار التطبيق: v{version}",
+  "@appVersionVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "versionUnknown": "إصدار غير معروف",
+  "dangerousAction": "إجراء خطير!",
+  "thisWillWipeYourEntireDatabaseAreYouAbsolutelySure": "سيؤدي هذا إلى مسح قاعدة البيانات بالكامل. هل أنت متأكد تماماً؟",
+  "resetAll": "إعادة ضبط",
+  "editBuffetName": "تعديل اسم الكافتيريا",
+  "enterBuffetName": "أدخل اسم الكافتيريا",
+  "settings": "الإعدادت",
+  "catalog": "الكتالوج",
+  "exportType": "تصدير {type}",
+  "@exportType": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "importType": "استيراد {type}",
+  "@importType": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "products": "المنتجات",
+  "addons": "الإضافات",
+  "newProduct": "منتج جديد",
+  "newAddon": "إضافة جديدة",
+  "processedItems": "{count, plural, =0{لم يتم معالجة أي عناصر} =1{تمت معالجة عنصر واحد} =2{تمت معالجة عنصرين} few{تمت معالجة {count} عناصر} many{تمت معالجة {count} عنصراً} other{تمت معالجة {count} عنصر}}",
+  "@processedItems": {
+    "description": "Message shown after importing items",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteItems": "حذف العناصر؟",
+  "deleteWarning": "حذف {count} من العناصر؟ لا يمكن التراجع عن هذا الإجراء.",
+  "@deleteWarning": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addNewProduct": "إضافة منتج جديد",
+  "required": "مطلوب",
+  "invalid": "غير صالح",
+  "basePrice": "السعر الأساسي",
+  "saveProduct": "حفظ المنتج",
+  "editAddon": "تعديل {name}",
+  "@editAddon": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "price": "السعر",
+  "saveAddon": "حفظ الإضافة",
+  "exportOptions": "خيارات التصدير",
+  "saveToDefault": "حفظ في الموقع الافتراضي",
+  "savedTo": "تم الحفظ في {path}",
+  "@savedTo": {
+    "placeholders": {
+      "path": {
+        "type": "String"
+      }
+    }
+  },
+  "selectLocation": "اختيار الموقع",
+  "chooseFolder": "اختر مجلدًا مخصصًا",
+  "savedSuccessfully": "تم الحفظ بنجاح",
+  "shareCsv": "مشاركة ملف CSV",
+  "whatsappEmail": "واتساب / بريد إلكتروني",
+  "duplicates": "العناصر المكررة:",
+  "skipAll": "تخطي الكل",
+  "replaceAll": "استبدال الكل",
+  "exists": "موجود مسبقاً",
+  "newWord": "جديد",
+  "skip": "تخطي",
+  "replace": "استبدال",
+  "duplicate": "مكرر",
+  "noAddons": "لا توجد إضافات",
+  "addAddonsNow": "أضف إضافات جديدة الآن!",
+  "errorOccurred": "خطأ: {error}",
+  "@errorOccurred": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "product": "منتج",
+  "addon": "إضافة",
+  "addProductsNow": "أضف منتجات جديدة الآن!",
+  "clickToOpen": "نقرة عادية: فتح {name}",
+  "@clickToOpen": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "importPreview": "معاينة الاستيراد",
+  "productName": "اسم المتتج",
+  "addonName": "اسم الإضافة",
+  "orderHistory": "سجل الطلبات",
+  "noOrdersFound": "لا توجد طلبات.",
+  "pending": "قيد الانتظار",
+  "served": "تم التقديم",
+  "status": "الحالة",
+  "items": "الأصناف",
+  "orderNotes": "ملاحظات الطلب",
+  "totalPaid": "إجمالي المدفوع",
+  "markAsServed": "تحديد كمكتمل",
+  "soon": "قريباً...",
+  "errorLoadingOrder": "خطأ في تحميل الطلب",
+  "deleteAll": "حذف الكل",
+  "deleteConfirmMessage": "سيؤدي هذا إلى حذف هذه السجلات نهائياً من قاعدة البيانات.",
+  "orderId": "طلب رقم {id}",
+  "@orderId": {
+    "placeholders": {
+      "id": {
+        "type": "int"
+      }
+    }
+  },
+  "deleteOrdersCount": "{count, plural, =1{حذف طلب واحد؟} =2{حذف طلبين؟} few{حذف {count} طلبات؟} many{حذف {count} طلباً؟} other{حذف {count} طلب؟}}",
+  "@deleteOrdersCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "deletedOrdersMessage": "{count, plural, =1{تم حذف طلب واحد} =2{تم حذف طلبين} few{تم حذف {count} طلبات} many{تم حذف {count} طلباً} other{تم حذف {count} طلب}}",
+  "@deletedOrdersMessage": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "orderServedSuccess": "تم تقديم طلب {orderId}",
+  "@orderServedSuccess": {
+    "placeholders": {
+      "orderId": {
+        "type": "String"
+      }
+    }
+  },
+  "posTerminal": "الكاشير",
+  "editCancelled": "تم إلغاء التعديل",
+  "clearOrder": "مسح الطلب؟",
+  "removeAllItemsFromTheCart": "هل تريد إزالة جميع الأصناف من السلة؟",
+  "clear": "مسح",
+  "cartIsEmpty": "السلة فارغة!",
+  "failedToSaveOrder": "فشل في حفظ الطلب. يرجى المحاولة مرة أخرى.",
+  "cannotPauseWhileEditing": "لا يمكن تعليق الطلب أثناء تعديل طلب محفوظ",
+  "pauseOrder": "تعليق الطلب",
+  "customerName": "اسم العميل",
+  "orderPaused": "تم تعليق الطلب",
+  "checkoutSummary": "ملخص الدفع",
+  "grandTotal": "الإجمالي النهائي",
+  "total": "الإجمالي",
+  "customerInfo": "معلومات العميل",
+  "enterCustomerName": "أدخل اسم العميل...",
+  "addOrderNotes": "إضافة ملاحظات (اختياري)...",
+  "completeSale": "إتمام البيع",
+  "addNewProductsNow": "أضف منتجات جديدة الآن!",
+  "totalAmount": "إجمالي المبلغ",
+  "checkout": "دفع",
+  "reviewOrder": "مراجعة الطلب",
+  "plain": "سادة",
+  "quantity": "الكمية",
+  "free": "مجاني",
+  "errorLoadingAddons": "خطأ في تحميل الإضافات",
+  "addToOrder": "إضافة للطلب",
+  "updateItem": "تحديث الصنف",
+  "pausedOrders": "الطلبات المعلقة",
+  "noPausedOrders": "لا توجد طلبات معلقة",
+  "orderDeleted": "تم حذف الطلب",
+  "delete": "حذف",
+  "resumeOrder": "استئناف الطلب",
+  "orderLoaded": "تم تحميل الطلب",
+  "orderUpdatedSuccessfully": "تم تحديث طلب {id} بنجاح",
+  "@orderUpdatedSuccessfully": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "orderSaved": "تم حفظ طلب {id}!",
+  "@orderSaved": {
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "checkoutError": "خطأ في الدفع: {e}",
+  "@checkoutError": {
+    "placeholders": {
+      "e": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsInBasket": "{count, plural, =0{السلة فارغة} =1{صنف واحد في السلة} =2{صنفين في السلة} few{{count} أصناف في السلة} many{{count} صنفاً في السلة} other{{count} صنف في السلة}}",
+  "@itemsInBasket": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "itemCount": "{count, plural, =1{صنف واحد} =2{صنفين} few{{count} أصناف} many{{count} صنفاً} other{{count} صنف}}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addProductName": "إضافة {name}",
+  "@addProductName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "editProductName": "تعديل {name}",
+  "@editProductName": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "orderIndex": "طلب رقم {index}",
+  "@orderIndex": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "swappedMins": "تم التبديل",
+  "listView": "عرض القائمة",
+  "gridView": "عرض الشبكة",
+  "hideSearch": "إخفاء البحث",
+  "search": "بحث",
+  "all": "الكل",
+  "confirmOrder": "تأكيد الطلب",
+  "errorOccur": "حدث خطأ",
+  "quickNavigation": "التنقل السريع",
+  "numbersFormat": "تنسيق الأرقام",
+  "currencySign": "رمز العملة",
+  "dateFormat": "تنسيق التاريخ",
+  "timeFormat": "تنسيق الوقت",
+  "numHour": "{count, plural, =1{ساعة واحدة} =2{ساعتان} other{{count} ساعة}}",
+  "@numHour": {
+    "placeholders": {
+      "count": {
+        "type": "num"
+      }
+    }
+  },
+  "backupDatabase": "نسخ احتياطي لقاعدة البيانات",
+  "exportAllDataToAFile": "تصدير كافة البيانات إلى ملف خارجي",
+  "restoreDatabase": "استعادة قاعدة البيانات",
+  "importNewDataFromABackupFile": "استيراد بيانات جديدة من ملف نسخة احتياطية",
+  "resetToDefault": "إعادة الضبط الافتراضي",
+  "restoreAllAppSettingsToFactoryDefaults": "إعادة كافة إعدادات التطبيق إلى ضبط المصنع",
+  "resetSettings": "إعادة ضبط الإعدادات؟",
+  "thisWillRevertYourCurrencyNumbersAndAppNameTo": "سيؤدي هذا إلى إعادة العملة، الأرقام، واسم الكافتيريا إلى الوضع الافتراضي. لا يمكن التراجع عن هذا الإجراء.",
+  "resetNow": "إعادة الضبط الآن",
+  "settingsRestoredToDefaults": "تم استعادة الإعدادات الافتراضية بنجاح",
+  "databaseExportedSuccessfully": "تم تصدير قاعدة البيانات بنجاح",
+  "exportCancelled": "تم إلغاء التصدير",
+  "permissionDenied": "تم رفض الإذن",
+  "importDatabase": "استيراد قاعدة البيانات؟",
+  "thisWillOverwriteAllCurrentBuffetDataTheAppWill": "سيؤدي هذا إلى استبدال كافة بيانات الكافتيريا الحالية. سيتم إعادة تشغيل التطبيق تلقائياً.",
+  "importRestart": "استيراد وإعادة تشغيل",
+  "importSuccessfulRestarting": "تم الاستيراد بنجاح! جاري إعادة التشغيل...",
+  "importFailed": "فشل الاستيراد",
+  "saved": "تم الحفظ",
+  "livePreview": "معاينة مباشرة",
+  "customT": "{title} مخصص...",
+  "@customT": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "applyChanges": "تطبيق التغييرات",
+  "systemResetSuccessfulRestarting": "تمت إعادة ضبط النظام بنجاح! جاري إعادة التشغيل...",
+  "resetFailed": "فشل إعادة الضبط",
+  "applyLanguage": "تطبيق اللغة",
+  "saudiRiyal": "- ريال يمني",
+  "usDollar": "$ - دولار أمريكي",
+  "biometricAuthentication": "المصادقة الحيوية",
+  "verifyIdentity": "تحقق من الهوية",
+  "authErrorMessage": "حدث خطأ أثناء المصادقة. يرجى المحاولة مرة أخرى.",
+  "pleaseSetUpBiometrics": "يرجى إعداد بصمة الوجه أو الأصبع في إعدادات الجهاز.",
+  "tooManyAttemptsLockout": "محاولات كثيرة جداً. تم إيقاف المصادقة مؤقتاً.",
+  "pleaseAuthenticateToConfirm": "يرجى المصادقة للتأكد من هويتك",
+  "biometricsNotAvailable": "البصمة أو رمز الأمان غير متوفر في هذا الجهاز.",
+  "noBiometricsRegistered": "لا توجد بصمات مسجلة على هذا الجهاز.",
+  "tooManyAttemptsRetry": "محاولات كثيرة جداً. يرجى المحاولة بعد 30 ثانية.",
+  "biometricsDisabledUsePasscode": "البصمة معطلة. يرجى فتح القفل باستخدام رمز مرور الهاتف.",
+  "osNotSupported": "نظام التشغيل هذا لا يدعم المصادقة المحلية.",
+  "identityVerified": "تم التحقق من الهوية",
+  "saveBuffetBackup": "حفظ نسخة احتياطية للكافتيريا",
+  "resetError": "خطأ في إعادة الضبط: {error}",
+  "@resetError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "invalidFileType": "نوع الملف غير صالح",
+  "searchProducts": "البحث عن المنتجات...",
+  "tapAnItemToPinItToTheTop": "اضغط على صنف لتثبيته في الأعلى",
+  "permissionRequired": "الإذن مطلوب",
+  "storagePermissionMessage": "مطلوب الوصول إلى التخزين لحفظ النسخ الاحتياطية. يرجى منح الإذن للمتابعة.",
+  "grant": "منح",
+  "basicDetails": "التفاصيل الأساسية",
+  "addNewAction": "إضافة إجراء جديد",
+  "noCategory": "بدون تصنيف",
+  "catExists": "موجود",
+  "newCat": "تصنيف جديد",
+  "importAction": "استيراد الآن",
+  "bestBuffet": "أفضل كافتيريا",
+  "saveToDefaultBackups": "حفظ في الافتراضي (backups/)",
+  "selectFolder": "اختر مجلدًا",
+  "shareFile": "مشاركة الملف",
+  "close": "إغلاق",
+  "savedToBackups": "تم الحفظ في {folder}",
+  "@savedToBackups": {
+    "placeholders": {
+      "folder": {
+        "type": "String"
+      }
+    }
+  },
+  "exportFailed": "فشل التصدير",
+  "success": "نجاح",
+  "exportNow": "تصدير الآن",
+  "invalidPattern": "تنسيق غير صالح",
+  "welcomeToBuffet": "مرحباً بك في كافتيريا",
+  "noCategories": "لا توجد تصنيفات",
+  "addNewCategoriesNow": "أضف تصنيفات جديدة الآن!",
+  "productCount": "{count, plural, =1{منتج واحد} =2{منتجين} few{{count} منتجات} many{{count} منتجاً} other{{count} منتج}}",
+  "quantityLabel": "{count}x {name}",
+  "addonPrefix": "+ {name}",
+  "welcomeToBuffetPreviewEn": "Welcome to Buffet",
+  "welcomeToBuffetPreviewAr": "مرحباً بك في كافتيريا",
+  "egDateFormat": "مثال: yyyy-MM-dd",
+  "dismiss": "تجاهل",
+  "categories": "التصنيفات",
+  "newCategory": "تصنيف جديد",
+  "editCategory": "تعديل التصنيف",
+  "categoryName": "اسم التصنيف",
+  "enterName": "أدخل الاسم...",
+  "saveCategory": "حفظ التصنيف",
+  "deletedSuccessfully": "تم الحذف بنجاح",
+  "uncategorized": "بدون تصنيف",
+  "egChickenBurger": "مثل: برجر دجاج",
+  "category": "التصنيف",
+  "selectCategory": "اختر التصنيف",
+  "addNewCategory": "إضافة تصنيف جديد",
+  "egExtraCheese": "مثل: جبنة إضافية",
+  "onboardingTitle1": "مرحباً بك في تطبيق الكافتيريا",
+  "onboardingSubtitle1": "نظام نقاط البيع الذكي المصمم للسرعة والبساطة. أدر كافتيرياك باحترافية.",
+  "onboardingTitle2": "تتبّع كل طلب",
+  "onboardingSubtitle2": "من عملية الدفع إلى سجل الطلبات، احتفظ بسجل كامل لجميع المعاملات مع تقارير مفصّلة.",
+  "onboardingTitle3": "جاهز للانطلاق!",
+  "onboardingSubtitle3": "أعدّ قائمة منتجاتك، خصّص إعداداتك، وابدأ في استقبال الطلبات خلال دقائق.",
+  "onboardingNext": "التالي",
+  "onboardingGetStarted": "ابدأ الآن",
+  "onboardingSkip": "تخطي",
+  "systemDefault": "تلقائي (لغة النظام)",
+  "themeMode": "مظهر التطبيق",
+  "darkMode": "الوضع الداكن",
+  "lightMode": "الوضع الفاتح",
+  "selectLanguage": "اختر اللغة",
+  "arabic": "العربية",
+  "english": "الإنجليزية (English)",
+  "login": "تسجيل الدخول",
+  "signUp": "إنشاء حساب",
+  "fullName": "الاسم كامل",
+  "phoneNumber": "رقم الهاتف",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة السر",
+  "confirmPassword": "تأكيد كلمة السر",
+  "dontHaveAccount": "ليس لديك حساب؟ إنشاء حساب",
+  "alreadyHaveAccount": "لديك حساب بالفعل؟ تسجيل الدخول",
+  "searchCountry": "البحث عن الدولة...",
+  "invalidEmail": "تنسيق البريد الإلكتروني غير صالح",
+  "passwordsDoNotMatch": "كلمات السر غير متطابقة",
+  "fieldRequired": "هذا الحقل مطلوب",
+  "emailAlreadyRegistered": "البريد الإلكتروني مسجل بالفعل",
+  "emailNotRegistered": "البريد الإلكتروني غير مسجل",
+  "incorrectPassword": "كلمة السر غير صحيحة",
+  "loginSuccess": "تم تسجيل الدخول بنجاح",
+  "registerSuccess": "تم إنشاء الحساب بنجاح",
+  "passwordTooShort": "يجب أن تكون كلمة السر 6 أحرف على الأقل",
+  "invalidPhoneNumber": "رقم الهاتف غير صالح",
+  "selectCountry": "اختر الدولة",
+  "suppliers": "الموردين",
+  "accounts": "الحسابات",
+  "addSupplier": "إضافة مورد",
+  "editSupplier": "تعديل مورد",
+  "supplierName": "اسم المورد",
+  "address": "العنوان",
+  "credit": "دائن",
+  "debit": "مدين",
+  "balance": "الرصيد",
+  "dailyDebit": "إجمالي المدين اليومي",
+  "dailyCredit": "إجمالي الدائن اليومي",
+  "dailySales": "المبيعات اليومية",
+  "netProfit": "صافي الربح",
+  "profits": "الأرباح",
+  "supplier": "المورد",
+  "selectSupplier": "اختر المورد",
+  "noSupplier": "بدون مورد",
+  "addTransaction": "إضافة قيد",
+  "transactionType": "نوع القيد",
+  "amount": "المبلغ",
+  "description": "البيان / الوصف",
+  "date": "التاريخ",
+  "linkedProducts": "المنتجات المرتبطة",
+  "linkedAddons": "الإضافات المرتبطة",
+  "printReport": "طباعة التقرير",
+  "exportAccountsReport": "تصدير تقرير الحسابات اليومي",
+  "ledger": "دفتر القيود المحاسبية",
+  "noTransactions": "لا توجد قيود مسجلة.",
+  "debitPayment": "مدين (سداد نقدي)",
+  "creditPurchase": "دائن (شراء بالآجل)"
+}

@@ -1,0 +1,83 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Keystore and Signing files
+*.jks
+*.keystore
+android/key.properties
+
+# If you ever put the jks inside the android folder by mistake
+**/android/*.jks
+.vscode/settings.json
+
+# --- Signing & Security ---
+# Hides the passwords and file paths for the build
+android/key.properties
+# Hides any Java KeyStore files (your master keys)
+*.jks
+*.keystore
+*.p12
+
+# --- Debug Symbols ---
+# Hides the folder created by --split-debug-info
+# This folder is large and only needed for local debugging/Firebase
+debug-info/
+
+# --- Build Artifacts ---
+# Hides the generated APKs/Bundles (they belong on GitHub Releases, not in the code)
+build/
+*.apk
+*.aab
+
+# --- Local IDE Settings ---
+# Since you're using VS Code / OpenCode
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

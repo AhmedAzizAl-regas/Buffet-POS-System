@@ -1,0 +1,95 @@
+class Country {
+  final String nameEn;
+  final String nameAr;
+  final String code; // ISO Code e.g. "SA", "YE"
+  final String dialCode; // e.g. "+966", "+967"
+  final String flag; // Emoji flag
+
+  const Country({
+    required this.nameEn,
+    required this.nameAr,
+    required this.code,
+    required this.dialCode,
+    required this.flag,
+  });
+
+  /// Get name based on current language code
+  String getName(String languageCode) {
+    return languageCode == 'ar' ? nameAr : nameEn;
+  }
+}
+
+const List<Country> countriesList = [
+  Country(nameEn: "Saudi Arabia", nameAr: "المملكة العربية السعودية", code: "SA", dialCode: "+966", flag: "🇸🇦"),
+  Country(nameEn: "Egypt", nameAr: "مصر", code: "EG", dialCode: "+20", flag: "🇪🇬"),
+  Country(nameEn: "United Arab Emirates", nameAr: "الإمارات العربية المتحدة", code: "AE", dialCode: "+971", flag: "🇦🇪"),
+  Country(nameEn: "Yemen", nameAr: "اليمن", code: "YE", dialCode: "+967", flag: "🇾🇪"),
+  Country(nameEn: "Jordan", nameAr: "الأردن", code: "JO", dialCode: "+962", flag: "🇯🇴"),
+  Country(nameEn: "Kuwait", nameAr: "الكويت", code: "KW", dialCode: "+965", flag: "🇰🇼"),
+  Country(nameEn: "Bahrain", nameAr: "البحرين", code: "BH", dialCode: "+973", flag: "🇧🇭"),
+  Country(nameEn: "Qatar", nameAr: "قطر", code: "QA", dialCode: "+974", flag: "🇶🇦"),
+  Country(nameEn: "Oman", nameAr: "عمان", code: "OM", dialCode: "+968", flag: "🇴🇲"),
+  Country(nameEn: "Iraq", nameAr: "العراق", code: "IQ", dialCode: "+964", flag: "🇮🇶"),
+  Country(nameEn: "Syria", nameAr: "سوريا", code: "SY", dialCode: "+963", flag: "🇸🇾"),
+  Country(nameEn: "Lebanon", nameAr: "لبنان", code: "LB", dialCode: "+961", flag: "🇱🇧"),
+  Country(nameEn: "Palestine", nameAr: "فلسطين", code: "PS", dialCode: "+970", flag: "🇵🇸"),
+  Country(nameEn: "Sudan", nameAr: "السودان", code: "SD", dialCode: "+249", flag: "🇸🇩"),
+  Country(nameEn: "Libya", nameAr: "ليبيا", code: "LY", dialCode: "+218", flag: "🇱🇾"),
+  Country(nameEn: "Tunisia", nameAr: "تونس", code: "TN", dialCode: "+216", flag: "🇹🇳"),
+  Country(nameEn: "Algeria", nameAr: "الجزائر", code: "DZ", dialCode: "+213", flag: "🇩🇿"),
+  Country(nameEn: "Morocco", nameAr: "المغرب", code: "MA", dialCode: "+212", flag: "🇲🇦"),
+  Country(nameEn: "Mauritania", nameAr: "موريتانيا", code: "MR", dialCode: "+222", flag: "🇲🇷"),
+  Country(nameEn: "Somalia", nameAr: "الصومال", code: "SO", dialCode: "+252", flag: "🇸🇴"),
+  Country(nameEn: "Djibouti", nameAr: "جيبوتي", code: "DJ", dialCode: "+253", flag: "🇩🇯"),
+  Country(nameEn: "Comoros", nameAr: "جزر القمر", code: "KM", dialCode: "+269", flag: "🇰🇲"),
+  Country(nameEn: "United States", nameAr: "الولايات المتحدة", code: "US", dialCode: "+1", flag: "🇺🇸"),
+  Country(nameEn: "United Kingdom", nameAr: "المملكة المتحدة", code: "GB", dialCode: "+44", flag: "🇬🇧"),
+  Country(nameEn: "Canada", nameAr: "كندا", code: "CA", dialCode: "+1", flag: "🇨🇦"),
+  Country(nameEn: "Turkey", nameAr: "تركيا", code: "TR", dialCode: "+90", flag: "🇹🇷"),
+  Country(nameEn: "Germany", nameAr: "ألمانيا", code: "DE", dialCode: "+49", flag: "🇩🇪"),
+  Country(nameEn: "France", nameAr: "فرنسا", code: "FR", dialCode: "+33", flag: "🇫🇷"),
+  Country(nameEn: "Italy", nameAr: "إيطاليا", code: "IT", dialCode: "+39", flag: "🇮🇹"),
+  Country(nameEn: "Spain", nameAr: "إسبانيا", code: "ES", dialCode: "+34", flag: "🇪🇸"),
+  Country(nameEn: "Australia", nameAr: "أستراليا", code: "AU", dialCode: "+61", flag: "🇦🇺"),
+  Country(nameEn: "India", nameAr: "الهند", code: "IN", dialCode: "+91", flag: "🇮🇳"),
+  Country(nameEn: "Pakistan", nameAr: "باكستان", code: "PK", dialCode: "+92", flag: "🇵🇰"),
+  Country(nameEn: "Bangladesh", nameAr: "بنغلاديش", code: "BD", dialCode: "+880", flag: "🇧🇩"),
+  Country(nameEn: "China", nameAr: "الصين", code: "CN", dialCode: "+86", flag: "🇨🇳"),
+  Country(nameEn: "Japan", nameAr: "اليابان", code: "JP", dialCode: "+81", flag: "🇯🇵"),
+  Country(nameEn: "South Korea", nameAr: "كوريا الجنوبية", code: "KR", dialCode: "+82", flag: "🇰🇷"),
+  Country(nameEn: "Russia", nameAr: "روسيا", code: "RU", dialCode: "+7", flag: "🇷🇺"),
+  Country(nameEn: "Brazil", nameAr: "البرازيل", code: "BR", dialCode: "+55", flag: "🇧🇷"),
+  Country(nameEn: "South Africa", nameAr: "جنوب أفريقيا", code: "ZA", dialCode: "+27", flag: "🇿🇦"),
+  Country(nameEn: "Nigeria", nameAr: "نيجيريا", code: "NG", dialCode: "+234", flag: "🇳🇬"),
+  Country(nameEn: "Indonesia", nameAr: "إندونيسيا", code: "ID", dialCode: "+62", flag: "🇮🇩"),
+  Country(nameEn: "Malaysia", nameAr: "ماليزيا", code: "MY", dialCode: "+60", flag: "🇲🇾"),
+  Country(nameEn: "Singapore", nameAr: "سنغافورة", code: "SG", dialCode: "+65", flag: "🇸🇬"),
+  Country(nameEn: "Iran", nameAr: "إيران", code: "IR", dialCode: "+98", flag: "🇮🇷"),
+  Country(nameEn: "Philippines", nameAr: "الفلبين", code: "PH", dialCode: "+63", flag: "🇵🇭"),
+  Country(nameEn: "Vietnam", nameAr: "فيتنام", code: "VN", dialCode: "+84", flag: "🇻🇳"),
+  Country(nameEn: "Thailand", nameAr: "تايلاند", code: "TH", dialCode: "+66", flag: "🇹🇭"),
+  Country(nameEn: "Netherlands", nameAr: "هولندا", code: "NL", dialCode: "+31", flag: "🇳🇱"),
+  Country(nameEn: "Sweden", nameAr: "السويد", code: "SE", dialCode: "+46", flag: "🇸🇪"),
+  Country(nameEn: "Switzerland", nameAr: "سويسرا", code: "CH", dialCode: "+41", flag: "🇨🇭"),
+  Country(nameEn: "Belgium", nameAr: "بلجيكا", code: "BE", dialCode: "+32", flag: "🇧🇪"),
+  Country(nameEn: "Austria", nameAr: "النمسا", code: "AT", dialCode: "+43", flag: "🇦🇹"),
+  Country(nameEn: "Greece", nameAr: "اليونان", code: "GR", dialCode: "+30", flag: "🇬🇷"),
+  Country(nameEn: "Portugal", nameAr: "البرتغال", code: "PT", dialCode: "+351", flag: "🇵🇹"),
+  Country(nameEn: "Poland", nameAr: "بولندا", code: "PL", dialCode: "+48", flag: "🇵🇱"),
+  Country(nameEn: "Ukraine", nameAr: "أوكرانيا", code: "UA", dialCode: "+380", flag: "🇺🇦"),
+  Country(nameEn: "Romania", nameAr: "رومانيا", code: "RO", dialCode: "+40", flag: "🇷🇴"),
+  Country(nameEn: "Czech Republic", nameAr: "جمهورية التشيك", code: "CZ", dialCode: "+420", flag: "🇨🇿"),
+  Country(nameEn: "Hungary", nameAr: "المجر", code: "HU", dialCode: "+36", flag: "🇭🇺"),
+  Country(nameEn: "New Zealand", nameAr: "نيوزيلندا", code: "NZ", dialCode: "+64", flag: "🇳🇿"),
+  Country(nameEn: "Ireland", nameAr: "أيرلندا", code: "IE", dialCode: "+353", flag: "🇮🇪"),
+  Country(nameEn: "Norway", nameAr: "النرويج", code: "NO", dialCode: "+47", flag: "🇳🇴"),
+  Country(nameEn: "Denmark", nameAr: "الدنمارك", code: "DK", dialCode: "+45", flag: "🇩🇰"),
+  Country(nameEn: "Finland", nameAr: "فنلندا", code: "FI", dialCode: "+358", flag: "🇫🇮"),
+  Country(nameEn: "Mexico", nameAr: "المكسيك", code: "MX", dialCode: "+52", flag: "🇲🇽"),
+  Country(nameEn: "Argentina", nameAr: "الأرجنتين", code: "AR", dialCode: "+54", flag: "🇦🇷"),
+  Country(nameEn: "Colombia", nameAr: "كولومبيا", code: "CO", dialCode: "+57", flag: "🇨🇴"),
+  Country(nameEn: "Peru", nameAr: "بيرو", code: "PE", dialCode: "+51", flag: "🇵🇪"),
+  Country(nameEn: "Chile", nameAr: "تشيلي", code: "CL", dialCode: "+56", flag: "🇨🇱"),
+  Country(nameEn: "Ecuador", nameAr: "الإكوادور", code: "EC", dialCode: "+593", flag: "🇪🇨"),
+  Country(nameEn: "Venezuela", nameAr: "فنزويلا", code: "VE", dialCode: "+58", flag: "🇻🇪"),
+];
