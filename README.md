@@ -2,6 +2,18 @@
 
 A robust, enterprise-grade Point of Sale (POS) & Restaurant Management solution engineered for buffet-style restaurants and cafeterias. Built with **Flutter**, this system prioritizes offline-first reliability, supplier ledger management, multi-currency support, dark/light aesthetics, and Clean Architecture.
 
+## 📸 Screenshots
+
+<p align="center">
+   <img src="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" alt="Screenshot 1" width="320" style="margin:6px;" />
+   <img src="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" alt="Screenshot 2" width="320" style="margin:6px;" />
+</p>
+
+<p align="center">
+   <img src="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" alt="Screenshot 3" width="320" style="margin:6px;" />
+   <img src="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" alt="Screenshot 4" width="320" style="margin:6px;" />
+</p>
+
 ---
 
 ## 🏗 Architecture & Design
