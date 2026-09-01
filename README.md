@@ -6,22 +6,23 @@ A robust, enterprise-grade Point of Sale (POS) & Restaurant Management solution 
 
 Below is a polished gallery showcasing the app UI (click any image to open in a new tab):
 
+
 <div align="center">
    <table>
       <tr>
-         <td><a href="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" target="_blank"><img src="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" alt="Screenshot 1" width="360" /></a></td>
-         <td><a href="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" target="_blank"><img src="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" alt="Screenshot 2" width="360" /></a></td>
-         <td><a href="https://postimg.cc/vxBGPsrv" target="_blank"><img src="https://i.postimg.cc/vxBGPsrv.jpg" alt="Screenshot 5" width="360" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/PLYJZTy6" target="_blank"><img src="https://i.postimg.cc/cJ5npJnN/photo-5812114268424442318-y-(1).jpg" alt="Screenshot 1" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/Tyg1mf0s" target="_blank"><img src="https://i.postimg.cc/s20hk2h3/photo-5816814337035800628-y.jpg" alt="Screenshot 2" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/vxBGPsrv" target="_blank"><img src="https://i.postimg.cc/Kj748c4C/photo-5816814337035800631-y.jpg" alt="Screenshot 5" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
       </tr>
       <tr>
-         <td><a href="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" target="_blank"><img src="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" alt="Screenshot 3" width="360" /></a></td>
-         <td><a href="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" target="_blank"><img src="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" alt="Screenshot 4" width="360" /></a></td>
-         <td><a href="https://postimg.cc/q6RpmTsL" target="_blank"><img src="https://i.postimg.cc/q6RpmTsL.jpg" alt="Screenshot 6" width="360" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/2qhyvrGX" target="_blank"><img src="https://i.postimg.cc/vmSVJmVM/photo-5816814337035800629-y.jpg" alt="Screenshot 3" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/06DjmPn3" target="_blank"><img src="https://i.postimg.cc/g0BZC0ZY/photo-5816814337035800630-y.jpg" alt="Screenshot 4" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
+         <td style="padding:6px"><a href="https://postimg.cc/q6RpmTsL" target="_blank"><img src="https://i.postimg.cc/XqKXYNXT/photo-5816814337035800632-y.jpg" alt="Screenshot 6" width="420" style="border-radius:6px; box-shadow:0 6px 18px rgba(0,0,0,0.12);" /></a></td>
       </tr>
    </table>
 </div>
 
-_Gallery: 3 columns × 2 rows — images are clickable to view full size._
+_Gallery: 3 columns × 2 rows — images are clickable to view full size. Images use clearer direct thumbnails._
 
 ---
 
