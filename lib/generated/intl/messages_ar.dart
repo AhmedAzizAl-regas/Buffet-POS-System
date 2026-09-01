@@ -469,7 +469,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "البحث عن المنتجات...",
     ),
     "selectCategory": MessageLookupByLibrary.simpleMessage("اختر التصنيف"),
-    "selectCountry": MessageLookupByLibrary.simpleMessage("اختر الدولة"),
+    "selectCountry": MessageLookupByLibrary.simpleMessage("اختر التاريخ"),
     "selectFolder": MessageLookupByLibrary.simpleMessage("اختر مجلدًا"),
     "selectLanguage": MessageLookupByLibrary.simpleMessage("اختر اللغة"),
     "selectLocation": MessageLookupByLibrary.simpleMessage("اختيار الموقع"),

@@ -463,7 +463,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Search products...",
     ),
     "selectCategory": MessageLookupByLibrary.simpleMessage("Select Category"),
-    "selectCountry": MessageLookupByLibrary.simpleMessage("Select Country"),
+    "selectCountry": MessageLookupByLibrary.simpleMessage("Select Date"),
     "selectFolder": MessageLookupByLibrary.simpleMessage("Select Folder"),
     "selectLanguage": MessageLookupByLibrary.simpleMessage("Select Language"),
     "selectLocation": MessageLookupByLibrary.simpleMessage("Select Location"),
