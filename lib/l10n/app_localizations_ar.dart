@@ -961,7 +961,7 @@ class AppLocalizationsAr extends AppLocalizations {
   String get invalidPhoneNumber => 'رقم الهاتف غير صالح';
 
   @override
-  String get selectCountry => 'اختر الدولة';
+  String get selectCountry => 'اختر التاريخ';
 
   @override
   String get suppliers => 'الموردين';

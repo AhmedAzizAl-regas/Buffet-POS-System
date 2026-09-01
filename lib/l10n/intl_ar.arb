@@ -462,7 +462,7 @@
   "registerSuccess": "تم إنشاء الحساب بنجاح",
   "passwordTooShort": "يجب أن تكون كلمة السر 6 أحرف على الأقل",
   "invalidPhoneNumber": "رقم الهاتف غير صالح",
-  "selectCountry": "اختر الدولة",
+  "selectCountry": "اختر التاريخ",
   "suppliers": "الموردين",
   "accounts": "الحسابات",
   "addSupplier": "إضافة مورد",

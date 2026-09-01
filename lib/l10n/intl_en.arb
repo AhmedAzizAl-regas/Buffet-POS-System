@@ -486,7 +486,7 @@
   "registerSuccess": "Registered successfully",
   "passwordTooShort": "Password must be at least 6 characters",
   "invalidPhoneNumber": "Invalid phone number",
-  "selectCountry": "Select Country",
+  "selectCountry": "Select the date",
   "suppliers": "Suppliers",
   "accounts": "Accounts",
   "addSupplier": "Add Supplier",

@@ -931,7 +931,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get invalidPhoneNumber => 'Invalid phone number';
 
   @override
-  String get selectCountry => 'Select Country';
+  String get selectCountry => 'Select the date';
 
   @override
   String get suppliers => 'Suppliers';

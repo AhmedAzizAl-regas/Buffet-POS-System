@@ -1691,7 +1691,7 @@ abstract class AppLocalizations {
   /// No description provided for @selectCountry.
   ///
   /// In en, this message translates to:
-  /// **'Select Country'**
+  /// **'Select the date'**
   String get selectCountry;
 
   /// No description provided for @suppliers.
