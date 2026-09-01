@@ -4,15 +4,24 @@ A robust, enterprise-grade Point of Sale (POS) & Restaurant Management solution 
 
 ## 📸 Screenshots
 
-<p align="center">
-   <img src="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" alt="Screenshot 1" width="320" style="margin:6px;" />
-   <img src="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" alt="Screenshot 2" width="320" style="margin:6px;" />
-</p>
+Below is a polished gallery showcasing the app UI (click any image to open in a new tab):
 
-<p align="center">
-   <img src="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" alt="Screenshot 3" width="320" style="margin:6px;" />
-   <img src="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" alt="Screenshot 4" width="320" style="margin:6px;" />
-</p>
+<div align="center">
+   <table>
+      <tr>
+         <td><a href="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" target="_blank"><img src="https://i.postimg.cc/PLYJZTy6/photo-5812114268424442318-y-(1).jpg" alt="Screenshot 1" width="360" /></a></td>
+         <td><a href="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" target="_blank"><img src="https://i.postimg.cc/Tyg1mf0s/photo-5816814337035800628-y.jpg" alt="Screenshot 2" width="360" /></a></td>
+         <td><a href="https://postimg.cc/vxBGPsrv" target="_blank"><img src="https://i.postimg.cc/vxBGPsrv.jpg" alt="Screenshot 5" width="360" /></a></td>
+      </tr>
+      <tr>
+         <td><a href="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" target="_blank"><img src="https://i.postimg.cc/2qhyvrGX/photo-5816814337035800629-y.jpg" alt="Screenshot 3" width="360" /></a></td>
+         <td><a href="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" target="_blank"><img src="https://i.postimg.cc/06DjmPn3/photo-5816814337035800630-y.jpg" alt="Screenshot 4" width="360" /></a></td>
+         <td><a href="https://postimg.cc/q6RpmTsL" target="_blank"><img src="https://i.postimg.cc/q6RpmTsL.jpg" alt="Screenshot 6" width="360" /></a></td>
+      </tr>
+   </table>
+</div>
+
+_Gallery: 3 columns × 2 rows — images are clickable to view full size._
 
 ---
 
