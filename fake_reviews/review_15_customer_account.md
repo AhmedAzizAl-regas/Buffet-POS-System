@@ -1,7 +1,8 @@
-fake review 15 - customer account polish
+review_15 - customer account polish
 
 - Type: review feedback
 - Status: sample
 - Purpose: project feedback sample
+
 
 

@@ -96,3 +96,4 @@ class LivePreviewCard extends ConsumerWidget {
     return numLoc == 'ar' ? "١,٢٥٠.٥٠" : "1,250.50";
   }
 }
+
