@@ -1,5 +1,6 @@
-comment: fake review 16 - payment confirmation UX
+fake review 16 - payment confirmation UX
 
-- Type: synthetic feedback
-- Status: mock
-- Purpose: test review comment generation
+- Type: fake review
+- Status: fake
+- Purpose: sample fake review
+
