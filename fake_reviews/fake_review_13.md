@@ -1,5 +1,6 @@
-comment: fake review 13 - order tracking UX
+fake review 13 - order tracking UX
 
-- Type: synthetic feedback
-- Status: mock
-- Purpose: test review comment generation
+- Type: fake review
+- Status: fake
+- Purpose: sample fake review
+
