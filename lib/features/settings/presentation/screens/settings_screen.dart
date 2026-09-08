@@ -68,53 +68,6 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
     final numFormat = configs['number_format'] ?? 'en'; // 'en' or 'ar'
 
     final dateFormat = configs['date_format'] ?? 'dd/MM/yyyy';
-    final fakeComments = <Map<String, Object>>[
-      {
-        'name': 'سارة',
-        'message': 'التصميم أنيق جدًا، والواجهة الداكنة مريحة جداً في المساء.',
-        'rating': 5,
-      },
-      {
-        'name': 'أحمد',
-        'message': 'صفحة الإعدادات سهلة ومريحة، واللغة العربية تبدو ممتازة.',
-        'rating': 5,
-      },
-      {
-        'name': 'مريم',
-        'message': 'اللغة الإنجليزية واضحة، ولوحة الإعدادات منظمة بشكل جميل.',
-        'rating': 4,
-      },
-      {
-        'name': 'يوسف',
-        'message': 'الوضع الداكن يساعد على استخدام التطبيق لفترات طويلة بدون إجهاد.',
-        'rating': 5,
-      },
-      {
-        'name': 'ليلى',
-        'message': 'التحويل بين العربية والإنجليزية سريع ومريح.',
-        'rating': 4,
-      },
-      {
-        'name': 'عبدالله',
-        'message': 'التطبيق أصبح احترافي أكثر بعد إضافة إعدادات الواجهة.',
-        'rating': 5,
-      },
-      {
-        'name': 'نوف',
-        'message': 'أحببت الألوان والأيقونات، خاصة في الوضع الداكن.',
-        'rating': 5,
-      },
-      {
-        'name': 'حسن',
-        'message': 'التحكم بالإعدادات سهل، وأتمنى إضافة مزيد من الخصائص لاحقًا.',
-        'rating': 4,
-      },
-      {
-        'name': 'زينب',
-        'message': 'خيارات اللغة والإعدادات ممتازة، والتجربة العامة أصبحت أفضل.',
-        'rating': 5,
-      },
-    ];
 
     return Scaffold(
       appBar: AppBar(
@@ -197,23 +150,6 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
               context,
               ref,
               configs['time_format'] ?? 'hh:mm a',
-            ),
-          ),
-          const SizedBox(height: 24),
-          _buildSectionTitle('التعليقات الوهمية'),
-          Padding(
-            padding: const EdgeInsets.only(bottom: 12),
-            child: Column(
-              children: fakeComments
-                  .map(
-                    (comment) => _buildMockCommentCard(
-                      context,
-                      name: comment['name'] as String,
-                      message: comment['message'] as String,
-                      rating: comment['rating'] as int,
-                    ),
-                  )
-                  .toList(),
             ),
           ),
           const SizedBox(height: 24),
@@ -321,83 +257,6 @@ class _SettingsScreenState extends ConsumerState<SettingsScreen> {
             ),
           ),
           const SizedBox(height: 40),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildMockCommentCard(
-    BuildContext context, {
-    required String name,
-    required String message,
-    required int rating,
-  }) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
-    final stars = List.generate(rating, (_) => '★').join();
-
-    return Container(
-      width: double.infinity,
-      margin: const EdgeInsets.only(bottom: 12),
-      padding: const EdgeInsets.all(14),
-      decoration: BoxDecoration(
-        color: isDark ? const Color(0xFF1E1E1E) : Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: isDark ? Colors.white.withAlpha(18) : Colors.grey.shade300,
-          width: 1,
-        ),
-      ),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          CircleAvatar(
-            radius: 20,
-            backgroundColor: Colors.orange.withAlpha(isDark ? 30 : 40),
-            child: Text(
-              name.substring(0, 1),
-              style: const TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: Text(
-                        name,
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: isDark ? Colors.white : Colors.black87,
-                        ),
-                      ),
-                    ),
-                    Text(
-                      stars,
-                      style: const TextStyle(
-                        color: Colors.amber,
-                        fontSize: 13,
-                        letterSpacing: 1.2,
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 6),
-                Text(
-                  message,
-                  style: TextStyle(
-                    color: isDark ? Colors.grey.shade300 : Colors.grey.shade700,
-                    height: 1.5,
-                  ),
-                ),
-              ],
-            ),
-          ),
         ],
       ),
     );
