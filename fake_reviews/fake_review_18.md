@@ -1,5 +1,6 @@
-comment: fake review 18 - marketing banner improvement
+fake review 18 - marketing banner improvement
 
-- Type: synthetic feedback
-- Status: mock
-- Purpose: test review comment generation
+- Type: fake review
+- Status: fake
+- Purpose: sample fake review
+
