@@ -1,5 +1,6 @@
-comment: fake review 11 - menu layout suggestion
+fake review 11 - menu layout suggestion
 
-- Type: synthetic feedback
-- Status: mock
-- Purpose: test review comment generation
+- Type: fake review
+- Status: fake
+- Purpose: sample fake review
+
