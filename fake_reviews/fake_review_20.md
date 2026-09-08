@@ -1,5 +1,6 @@
-comment: fake review 20 - report export improvement
+fake review 20 - report export improvement
 
-- Type: synthetic feedback
-- Status: mock
-- Purpose: test review comment generation
+- Type: fake review
+- Status: fake
+- Purpose: sample fake review
+
